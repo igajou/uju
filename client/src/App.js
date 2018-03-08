@@ -1,25 +1,6 @@
-import React, { Component } from 'react';
-import {
-    StyleSheet,
-    Text,
-    View
-} from 'react-native';
+import React from 'react';
+import Interest from './components';
 
-export default class App extends Component {
-    render() {
-        return (
-            <View style={style.container}>
-                <Text>Hello world!</Text>
-            </View>
-        );
-    }
-}
-
-const style = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#F5FCFF',
-    }
-});
+export default () => (
+    <Interest />
+);

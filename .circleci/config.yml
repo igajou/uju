@@ -10,3 +10,4 @@ jobs:
           command: |
             sudo pip install --upgrade pip
             sudo pip install -r ./requirements.txt
+            py.test client/test/test_minimal.tavern.yaml -v
